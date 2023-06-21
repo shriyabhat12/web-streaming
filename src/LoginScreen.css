@@ -1,0 +1,113 @@
+.signupScreen {
+    min-height: 100vh;
+    padding: 3rem;
+    margin-top: -53rem;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+}
+
+.bg__img {
+    width: 100%;
+    height: 99.5vh;
+}
+
+.signupScreen .input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.signupScreen input {
+    background: #2c3e50;
+    padding: 0.6rem 0.75rem;
+    width: 93%;
+    border: 1px rgba(255, 255, 255, 0.15) solid;
+    border-radius: 0.25rem;
+    color: #fff;
+    font-family: "Work Sans";
+    font-weight: 500;
+    transition: all 0.2s;
+    align-items: center;
+}
+
+.signupScreen label {
+    opacity: 0.75;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    font-family: "Mulish";
+    color: aliceblue;
+    text-align: center;
+}
+
+.signupScreen h1 {
+    margin-bottom: 3rem;
+    text-align: center;
+    color: #0080ff;
+}
+
+.signupScreen input:focus {
+    border: 1px rgba(255, 255, 255, 0.5) solid;
+    background: #4ca1af;
+    outline: none;
+}
+
+.signupScreen button {
+    text-align: center;
+    background: #3cb19f;
+    padding: 0.65rem 0.75rem;
+    width: 100%;
+    border: none;
+    border-radius: 0.25rem;
+    transition: all 0.2s;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: large;
+    font-family: "Mulish";
+}
+
+.signupScreen button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+
+}
+
+.login-button img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.signupScreen form {
+    background: rgba(23, 32, 50, 0.75);
+    padding: 3rem;
+    margin: 6rem 1.5rem 1.5rem 1.5rem;
+    z-index: 99;
+    border: 1px rgba(255, 255, 255, 0.5) solid;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 25rem;
+}
+
+@media (max-width: 550px) {
+
+    .signupScreen,
+    .signupScreen form {
+        padding: 3rem 1.5rem;
+    }
+}

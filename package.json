@@ -1,0 +1,67 @@
+{
+  "name": "streamx",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coreui/coreui": "^4.2.6",
+    "@coreui/react": "^4.6.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@material-ui/lab": "^4.0.0-alpha.61",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.6",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "axios": "^1.2.6",
+    "bootstrap": "^5.2.3",
+    "firebase": "^9.16.0",
+    "framer-motion": "^10.0.1",
+    "movie-trailer": "^3.0.0",
+    "numeral": "^2.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropdown": "^1.11.0",
+    "react-hover-video-player": "^9.7.1",
+    "react-imgix": "^9.7.0",
+    "react-modal-video": "^2.0.0",
+    "react-optimized-image": "^0.4.1",
+    "react-redux": "^8.0.5",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "^5.0.1",
+    "react-text-truncate": "^0.19.0",
+    "react-toastify": "^9.1.1",
+    "react-youtube": "^10.1.0",
+    "reactstrap": "^9.1.5",
+    "rsuite": "^5.26.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

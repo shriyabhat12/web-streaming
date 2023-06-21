@@ -1,0 +1,48 @@
+.row {
+    position: sticky;
+    object-fit: contain;
+    color: white;
+    margin-left: 2%;
+    max-height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 2rem;
+}
+
+.row__posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row__poster {
+    max-height: 120px;
+    object-fit: contain;
+    border-radius: 0.7rem;
+    transition: all ease-in-out 200ms;
+    opacity: 0.7;
+    margin-right: 1rem;
+    width: 100%;
+}
+
+.row__poster:hover {
+    max-width: 100%;
+    transform: scale(1.15);
+    opacity: 1;
+    border: 100%;
+    transition: all ease-in-out 200ms;
+}
+
+.row__posterLarge {
+    max-height: 200px;
+    border-radius: 0.5rem;
+}
+
+.row__trailer {
+    object-fit: contain;
+    position: sticky;
+    height: auto;
+}
